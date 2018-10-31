@@ -21,6 +21,10 @@ This will search the Bands in Town Artist Events API for an artist and render th
   * Name of the venue
   * Venue location
   * Date of the Event (use moment to format this as "MM/DD/YYYY")
+  
+[Image]
+![Image of command](https://github.com/pikopiri127/called-liri-node-app/blob/master/command-1.png)
+
 
 2.  node liri.js spotify-this-song '<song name here>'
 
@@ -30,6 +34,10 @@ This will show the following information about the song in your terminal/bash wi
   * A preview link of the song from Spotify
   * The album that the song is from
 (If no song is provided then your program will default to "The Sign" by Ace of Base.)
+
+[Image]
+![Image of command](https://github.com/pikopiri127/called-liri-node-app/blob/master/command-2.png)
+
 
 3.  node liri.js movie-this '<movie name here>'
 
@@ -44,11 +52,16 @@ This will output the following information to your terminal/bash window:
   * Actors in the movie.
 (If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.')
 
+[Image]
+![Image of command](https://github.com/pikopiri127/called-liri-node-app/blob/master/command-3.png)
+
+
 4.  node liri.js do-what-it-says
 
 Using the fs Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
 (It should run spotify-this-song for "I Want it That Way," as follows the text in random.txt.)
 
 [Image]
-![Image of command](https://github.com/pikopiri127/called-liri-node-app/blob/master/command-1.png)
+![Image of command](https://github.com/pikopiri127/called-liri-node-app/blob/master/random.png)
+![Image of command](https://github.com/pikopiri127/called-liri-node-app/blob/master/command-4.png)
 
