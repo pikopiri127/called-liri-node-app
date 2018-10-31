@@ -50,5 +50,5 @@ Using the fs Node package, LIRI will take the text inside of random.txt and then
 (It should run spotify-this-song for "I Want it That Way," as follows the text in random.txt.)
 
 [Image]
-
+/images/logo.png
 
